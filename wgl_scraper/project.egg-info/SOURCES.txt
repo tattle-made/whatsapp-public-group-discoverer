@@ -1,0 +1,13 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+wgl_scraper/__init__.py
+wgl_scraper/items.py
+wgl_scraper/middlewares.py
+wgl_scraper/pipelines.py
+wgl_scraper/settings.py
+wgl_scraper/spiders/__init__.py
+wgl_scraper/spiders/wgl.py
