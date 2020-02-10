@@ -3,7 +3,7 @@ name: update-public-registry
 on: 
   push:
     branches: 
-      - registry
+      - master
 
 jobs:
   build:
