@@ -1,0 +1,23 @@
+name: update-public-registry
+
+on: 
+  push:
+    branches: 
+      - registry
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SHA8: ${GITHUB_SHA::8}
+
+    steps:
+    - uses: actions/checkout@v1
+      
+    - name: Publish to Docker
+      uses: zenato/docker-action@master
+      with:
+        username: tattletech
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        repository: tattletech/whatsapp-public-group-discoverer
+        tag: latest
