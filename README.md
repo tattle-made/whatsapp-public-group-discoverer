@@ -50,7 +50,7 @@ Join our [Slack channel](https://join.slack.com/t/tattle-workspace/shared_invite
 
 Contact us at admin@tattle.co.in or ping us on [Slack channel](https://join.slack.com/t/tattle-workspace/shared_invite/zt-da07n75v-kIw9Z5b~_gDKP~JsScP1Vg)
 
-# Licence
+## Licence
 When you submit code changes, your submissions are understood to be under the same licence that covers the project - GPL-3. Feel free to contact the maintainers if that's a concern.
 
 
