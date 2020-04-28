@@ -40,7 +40,7 @@ The spider excludes pages defined in the variable 'deny'. In Tattle's case, this
 
 
 ## Contribute
-Please see instructions [here](https://github.com/tattle-made/docs/blob/master/CONTRIBUTE.md).
+Please see instructions (here)[https://github.com/tattle-made/docs/blob/master/CONTRIBUTE.md].
 
 ## Get help with developing
 
