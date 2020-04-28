@@ -28,11 +28,11 @@ If the scraper is running for the first time, then all the links on the website 
 
 runWglScraper.sh is shell script that executes the following steps:
 * Deletes the old 'groupsLinks_daily.csv'. After the scraper is run a new file will be created.
-* Runs the (Scrapy spider)[https://github.com/tattle-made/whatsapp-public-group-discoverer/blob/master/wgl_scraper/wgl_scraper/spiders/WAScraper.py]  to crawl whatsappgrouplinks.org
+* Runs the [Scrapy spider](https://github.com/tattle-made/whatsapp-public-group-discoverer/blob/master/wgl_scraper/wgl_scraper/spiders/WAScraper.py)  to crawl whatsappgrouplinks.org
 * Updates the csv files with new links. 
 
 ### Scrapy Spider
-The operation of the spider is defined in (WAScraper.py)[https://github.com/tattle-made/whatsapp-public-group-discoverer/blob/master/wgl_scraper/wgl_scraper/spiders/WAScraper.py].
+The operation of the spider is defined in [WAScraper.py](https://github.com/tattle-made/whatsapp-public-group-discoverer/blob/master/wgl_scraper/wgl_scraper/spiders/WAScraper.py).
 
 The spider goes through pages on the website and extracts links that contain 'https://chat.whatsapp.com/'.
 
@@ -40,7 +40,7 @@ The spider excludes pages defined in the variable 'deny'. In Tattle's case, this
 
 
 ## Contribute
-Please see instructions (here)[https://github.com/tattle-made/docs/blob/master/CONTRIBUTE.md].
+Please see instructions [here](https://github.com/tattle-made/docs/blob/master/CONTRIBUTE.md).
 
 ## Get help with developing
 
